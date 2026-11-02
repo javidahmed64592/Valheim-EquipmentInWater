@@ -31,10 +31,6 @@
       <HintPath>$(BepInExCoreDir)/0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="assembly_guiutils">
-      <HintPath>$(ManagedDir)/assembly_guiutils.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
     <Reference Include="assembly_utils">
       <HintPath>$(ManagedDir)/assembly_utils.dll</HintPath>
       <Private>false</Private>
@@ -51,24 +47,12 @@
       <HintPath>$(BepInExPluginsDir)/ValheimModding-Jotunn/Jotunn.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(ManagedDir)/Unity.TextMeshPro.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(ManagedDir)/UnityEngine.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(ManagedDir)/UnityEngine.CoreModule.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>$(ManagedDir)/UnityEngine.InputLegacyModule.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>$(ManagedDir)/UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
