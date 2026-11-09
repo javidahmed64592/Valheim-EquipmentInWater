@@ -1,7 +1,7 @@
 {
   "name": "EquipmentInWater",
   "description": "Use your equipment while in the water.",
-  "version_number": "0.1.0",
+  "version_number": "0.2.0",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2360",
     "ValheimModding-Jotunn-2.30.2"
