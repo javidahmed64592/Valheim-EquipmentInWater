@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Moved the code out of `Plugin.cs` into folders (`Swimming`, `Patches`), with each Harmony patch in its own file. No behaviour change.
+
 ## 0.2.0
 
 - The hide/show weapons key now takes your weapons back out while swimming. Previously it could put them away but not bring them back.
