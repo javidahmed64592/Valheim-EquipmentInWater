@@ -14,7 +14,7 @@ public class EquipmentInWaterPlugin : BaseUnityPlugin
 {
     public const string PluginGUID = "javidahmed64592.equipmentinwater";
     public const string PluginName = "Equipment In Water";
-    public const string PluginVersion = "0.2.0";
+    public const string PluginVersion = "1.0.0";
 
     internal static ManualLogSource Log { get; private set; }
 

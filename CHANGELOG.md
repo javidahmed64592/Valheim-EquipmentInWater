@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 1.0.0
 
+- First stable release. The features are unchanged from 0.2.0.
 - Moved the code out of `Plugin.cs` into folders (`Swimming`, `Patches`), with each Harmony patch in its own file. No behaviour change.
 
 ## 0.2.0
