@@ -13,11 +13,13 @@ Using them still costs stamina as usual, and stamina doesn't regenerate while sw
 
 ## Configuration
 
-This mod has no settings.
+The settings are in `BepInEx/config/javidahmed64592.equipmentinwater.cfg`.
+The only one, `DisabledFeatures` under `[Debug]`, is for testing: it turns parts of the mod off by name. Leave it empty to play normally.
 
 ## Compatibility
 
 - Other mods that change swimming, or what the player can do in water, may conflict with this mod.
+- If a game update breaks part of the mod, that part turns off on its own and the log says which one; the rest keeps working.
 - This mod has not been tested with a gamepad, only with keyboard and mouse.
 
 ## Uninstalling
