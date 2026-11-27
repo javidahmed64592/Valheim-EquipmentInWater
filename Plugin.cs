@@ -1,5 +1,6 @@
 using BepInEx;
-using BepInEx.Logging;
+
+using EquipmentInWater.Core;
 
 using HarmonyLib;
 
@@ -16,15 +17,12 @@ public class EquipmentInWaterPlugin : BaseUnityPlugin
     public const string PluginName = "Equipment In Water";
     public const string PluginVersion = "1.0.0";
 
-    internal static ManualLogSource Log { get; private set; }
-
     private Harmony _harmony;
 
     private void Awake()
     {
-        Log = Logger;
         _harmony = new Harmony(PluginGUID);
-        _harmony.PatchAll();
+        _ = SafePatcher.PatchAll(_harmony, Config, Logger);
     }
 
     private void OnDestroy()

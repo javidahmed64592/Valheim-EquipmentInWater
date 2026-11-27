@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
@@ -35,11 +36,11 @@ internal static class SwimmingCheck
             }
         }
 
-        // A game update can move the check; say so rather than silently doing nothing.
+        // A game update can move the check. Failing the patch lets SafePatcher turn this part off and say so,
+        // rather than silently doing nothing.
         if (replaced == 0)
         {
-            EquipmentInWaterPlugin.Log.LogWarning(method + " has no swimming check to remove: the game may have " +
-                "changed, so this part of the mod does nothing.");
+            throw new InvalidOperationException(method + " has no swimming check to remove");
         }
     }
 }
