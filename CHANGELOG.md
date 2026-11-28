@@ -1,9 +1,9 @@
 # Changelog
 
-## Unreleased
+## 1.1.0
 
-- If a game update breaks part of the mod, only that part turns off and the rest keeps working: if the hide/show weapons key stops working in water, you can still equip and use items while swimming. The log says which part is off, in one line. If equipping in water itself breaks, the whole mod turns off cleanly instead of throwing errors.
-- New `DisabledFeatures` setting under `[Debug]`, for testing: turns parts of the mod off by name.
+- **Safer after game updates:** if an update breaks the hide/show weapons key in water, only that part turns off and the log says which, in one line; you can still equip and use items while swimming. If equipping in water itself breaks, the whole mod turns off cleanly instead of throwing errors.
+- **Debug setting:** the new `DisabledFeatures` setting under `[Debug]` turns parts of the mod off by name, for testing.
 - Updated Jotunn to 2.30.3.
 
 ## 1.0.0
